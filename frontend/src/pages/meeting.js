@@ -5,7 +5,7 @@ export default function Video({ match }) {
   const id = match.params.id;
 
   useEffect(() => {
-    const domain = "https://michaelkitas.daily.co/";
+    const domain = "https://asasasas.daily.co/";
 
     axios
       .get(`/video-call/${id}`)
